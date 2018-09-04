@@ -1,6 +1,6 @@
 # cfc-fisrt-aid
 
-# Creating a smarter system with Watson Discovery to provide help on first aid information to bystanders or the NGO who have no medical or first responder skills.
+# Creating a smarter system with **Watson Discovery** to provide help on first aid information to bystanders or the NGO who have no medical or first responder skills.
 
 The purpose for creating this application is most of the times the person who comes to rescue of injured person during natural calamities is bystander. He may be unaware of handling situations. If he/she mishandles injured person, there are chances of causing severe or life time damages to the injured person. So we are providing embedded videos to guide bystanders or NGO who is unaware of handling the situation. We are also providing info on do's and don'ts during natural calamities.
 
@@ -8,13 +8,21 @@ The purpose for creating this application is most of the times the person who co
 
 http://firstaid-fantastic-wombat.mybluemix.net/
 
+## Process Flow
+
+1. Create **Watson Discovery** instance.
+2. Ingest Documents which has info on First Aid.
+3. Scrap website which info on Do's and Don'ts using **Apache Nutch Crawler**.
+4. Query the **Watson Discovery** to view the results.
+5. Provide relevancy training feature of **Watson Discover** to improve the results.
+
 ## Create IBM Cloud services
 
 Create the following services:
 
 * [**Watson Discovery**](https://console.bluemix.net/catalog/services/discovery)
 
-Once Discovery service instance is created create collection and ingest documents. The following screen show documents ingested.
+Once **Watson Discovery** service instance is created create collection and ingest documents. The following screen show documents ingested.
 
 ![](doc/images/tool-document-view.png)
 
