@@ -1,12 +1,18 @@
 # cfc-fisrt-aid
 
-# Creating a smarter system with **Watson Discovery** to provide help on first aid information to bystanders or the NGO who have no medical or first responder skills.
+## Creating a smarter system with **Watson Discovery** to provide help on first aid information to bystanders or the NGO who have no medical or first responder skills.
 
 The purpose for creating this application is most of the times the person who comes to rescue of injured person during natural calamities is bystander. He may be unaware of handling situations. If he/she mishandles injured person, there are chances of causing severe or life time damages to the injured person. So we are providing embedded videos to guide bystanders or NGO who is unaware of handling the situation. We are also providing info on do's and don'ts during natural calamities.
 
 ## The application is hosted at below URL
 
 http://firstaid-fantastic-wombat.mybluemix.net/
+
+## Architecture Diagram
+
+![](doc/images/architecture_first_aid_info.png)
+
+![](doc/images/inside_outside_of_WDS.png)
 
 ## Process Flow
 
