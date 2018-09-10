@@ -26,11 +26,9 @@ http://www.cddrm-ncdc.org/e39621/e39673/index_eng.html
 
 https://ndma.gov.in/en/about-ndma/evolution-of-ndma.html
 
-```
 
-We got website and also first aid clips info from Dr. Chetan, Civil Defense Department, Bangalore.
+**We got website and also first aid clips info from Dr. Chetan, Civil Defense Department, Bangalore.**
 
-```
 
 4. Query the **Watson Discovery** to view the results.
 
@@ -54,7 +52,7 @@ The user enters query and response is displayed in tool.
 
 ![](doc/images/tool-first-aid-how-to-carry-patient.png)
 
-The same response is shown in application. But in application you can view/watch the embedded videos.
+**The same response is shown in application. But in application you can view/watch the embedded videos.**
 
 ![](doc/images/app-first-aid-how-to-carry-patient.png)
 
