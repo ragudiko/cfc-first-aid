@@ -1,4 +1,4 @@
-# cfc-fisrt-aid
+# cfc-first-aid
 
 ## Creating a smarter system with **Watson Discovery** to provide help on first aid information to bystanders or the NGO who have no medical or first responder skills.
 
@@ -17,9 +17,23 @@ http://firstaid-fantastic-wombat.mybluemix.net/
 ## Process Flow
 
 1. Create **Watson Discovery** instance.
-2. Ingest Documents which has info on First Aid.
-3. Scrap website which info on Do's and Don'ts using **Apache Nutch Crawler**.
+
+2. Ingest Documents which has info on First Aid or preparedness. Refer disco-docs folder under project root folder for the sample documents ingested.
+
+3. Scrap website which info on Do's and Don'ts using **Apache Nutch Crawler**. Refer https://github.com/IBM-Watson/nutch-indexer-discovery for crawling. We have referred National Disaster Management Authority website and National Civil Defense College website for do's and don'ts.
+
+http://www.cddrm-ncdc.org/e39621/e39673/index_eng.html
+
+https://ndma.gov.in/en/about-ndma/evolution-of-ndma.html
+
+```
+
+We got website and also first aid clips info from Dr. Chetan, Civil Defense Department, Bangalore.
+
+```
+
 4. Query the **Watson Discovery** to view the results.
+
 5. Provide relevancy training feature of **Watson Discover** to improve the results.
 
 ## Create IBM Cloud services
